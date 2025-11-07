@@ -420,7 +420,7 @@
             });
 
             // КД (AC) = 10 + Модификатор Ловкости (базовый расчет)
-            document.getElementById('ac-input').value = 10 + statMods.dex;
+            document.getElementById('ac-input').value = 13 + statMods.dex;
             
             // Инициатива = Модификатор Ловкости
             document.getElementById('initiative-mod').textContent = statMods.dex >= 0 ? `+${statMods.dex}` : statMods.dex.toString();
@@ -592,3 +592,4 @@
 </body>
 
 </html>
+
